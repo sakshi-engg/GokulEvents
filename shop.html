@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta cha₹et="UTF-8">
+	<title>Gokul Tents - Shop</title>
+	<!-- =================== META =================== -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="assets/img/favicon.png">
+	<!-- =================== STYLE =================== -->
+	<link rel="stylesheet" href="assets/css/slick.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/jquery-ui.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="home">
+	<!--================ PRELOADER ================-->
+	<div class="preloader-cover">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!--============== PRELOADER END ==============-->
+	<!-- ================= HEADER ================= -->
+	<header class="header">
+		<a href="#" class="nav-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<div class="top-panel">
+			<div class="container">
+				<div class="top-panel-cover">
+					<ul class="header-cont">
+						<li><a href="tel:+912345687"><i class="fa fa-phone"></i>+9123 456 87</a></li>
+						<li><a href="mailto:creto@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>creto@gmail.com</a></li>
+					</ul>
+					<ul class="icon-right-list">
+						<li><a class="header-like" href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>6</span></a></li>
+						<li><a class="header-user" href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+						<li><a class="header-cart" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-menu">
+			<div class="container">
+				<a href="index.html" class="logo" class="animelogo"><img src="gukul logo.png" alt="logo" width="160px" height="100px" style="display: flex; flex-direction: center; margin-left: 550px;"></a>
+				<nav class="nav-menu">
+					<ul class="nav-list">
+						<li class="dropdown">
+							<a href="#">Home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+								<li><a href="index.html">Home One</a></li>
+								<li><a href="home-two.html">Home Two</a></li>
+							</ul>
+						</li>
+						<li><a href="services.html">Services</a></li>
+						<li class="active"><a href="shop.html">Shop</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li class="dropdown">
+							<a href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="news.html">News</a></li>
+								<li><a href="404.html">Page error 404</a></li>
+							</ul>
+						</li>
+						<li><a href="contacts.html">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- =============== HEADER END =============== -->
+	
+	<!-- ================ HEADER-TITLE ================ -->
+	<section class="s-header-title">
+		<div class="container">
+			<h1>Shop</h1>
+			<ul class="breadcrambs">
+				<li><a href="index.html">Home</a></li>
+				<li>Shop</li>
+			</ul>
+		</div>
+	</section>
+	<!-- ============== HEADER-TITLE END ============== -->
+
+	<!--===================== SHOP =====================-->
+	<section class="s-shop">
+		<div class="container">
+			<div class="shop-sidebar-btn btn"><span>filter</span></div>
+			<div class="row">
+				<div class="col-12 col-lg-3 shop-sidebar">
+					<ul class="widgets wigets-shop">
+						<li class="widget wiget-cart">
+							<h5 class="title">Cart</h5>
+							<p class="not-product">Add products in the cart.</p>
+						</li>
+						<li class="widget wiget-shop-category">
+							<h5 class="title">categories</h5>
+							<ul>
+								<li><p><input type="checkbox" checked><span>Wedding</span></p></li>
+								<li><p><input type="checkbox"><span>Engagement Ceremony</span></p></li>
+								<li><p><input type="checkbox"><span>Baby Shower</span></p></li>
+								<li><p><input type="checkbox"><span>Birthday Parties</span></p></li>
+								<li><p><input type="checkbox"><span>Themed Parties</span></p></li>
+								<li><p><input type="checkbox"><span>Festive Decor</span></p></li>
+								<li><p><input type="checkbox"><span>Corporate Events</span></p></li>
+							</ul>
+						</li>
+						<li class="widget wiget-price">
+							<h5 class="title">price(₹)</h5>
+							<div id="slider-range"></div>
+							<div class="amount-cover">
+								<input type="text" id="amount-min">
+								<span>&mdash;</span>
+								<input type="text" id="amount-max">
+							</div>
+						</li>
+						<li class="widget wiget-gender">
+							<h5 class="title">Products</h5>
+							<ul>
+								<li><p><input type="checkbox" checked><span>flowe₹</span></p></li>
+								<li><p><input type="checkbox"><span>Trees</span></p></li>
+								<li><p><input type="checkbox"><span>Swing</span></p></li>
+								<li><p><input type="checkbox"><span>Backdrops</span></p></li>
+								<li><p><input type="checkbox"><span>Umbrellas</span></p></li>
+								<li><p><input type="checkbox"><span>Centerpieces</span></p></li>
+								<li><p><input type="checkbox"><span>Bicycle</span></p></li>
+								<li><p><input type="checkbox"><span>Wall Hangings</span></p></li>
+							</ul>
+						</li>
+						<li class="widget wiget-color">
+							<h5 class="title">color</h5>
+							<ul>
+								<li style="background: #f3deca"></li>
+								<li style="background: #fa9483"></li>
+								<li style="background: #2d4057"></li>
+								<li style="background: #4097aa"></li>
+								<li style="background: #0ac693"></li>
+								<li style="background: #0c5061"></li>
+								<li style="background: #f74440"></li>
+								<li style="background: #e0e44a"></li>
+							</ul>
+						</li>
+					</ul>
+					<a href="#" class="reset-filter-btn">Reset Filters</a>
+				</div>
+				<div class="col-12 col-lg-9 shop-cover">
+					<div class="baner-shop">
+						<span class="mask"></span>
+						<img src="assets/img/Florals/F6.PNG" alt="img">
+						<div class="baner-item-content">
+							<h2>Buy The Latest One</h2>
+							<p>Innovative Decor Products to Elevate Your Next Celebration.</p>
+							<a href="shop.html" class="btn"><span>New Arrival</span></a>
+							<div class="banner-sale-cover">
+								<div class="banner-sale">Transform your visions into reality with GOKUL </div>
+							</div>
+						</div>
+					</div>
+					<h2 class="title">Our Products</h2>
+					<div class="shop-sort-cover">
+						<div class="sort-left">340 products found</div>
+						<div class="sort-right">
+							<div class="sort-by">
+								<span class="sort-name">sort by:</span>
+								<select class="nice-select">
+									<option selected="selected" disabled>best selling</option>
+									<option>new product</option>
+									<option>sale product</option>
+								</select>
+							</div>
+							<ul class="sort-form">
+								<li data-atr="large"><i class="fa fa-th-large" aria-hidden="true"></i></li>
+								<li data-atr="block" class="active"><i class="fa fa-th" aria-hidden="true"></i></li>
+								<li data-atr="list"><i class="fa fa-list" aria-hidden="true"></i></li>
+							</ul>
+						</div>
+					</div>
+					<div class="shop-product-cover">
+						<div class="row product-cover block">
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product 1.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,899</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Honeycomb Backdrops Adorned<br>with pink Roses.</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>9" feet</span></li>
+												<li>Material: <span>Metal</span></li>
+												<li>Flower: <span>Pinkish Rose</span></li>
+												<li>Uses: - Diwali Decoration, Wedding Decorations,Flower Backdrops,
+													Mehandi Decorations, Event Decorations, Mandap Decorations
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product2.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,699</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Preston Bailey Protege <br>Massive Floral Centerpieces</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product 3.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,345</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Classic Flower Bouquet Stands for Centerpieces<br>Aluminum Alloy Mantis</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product 4.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,123</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Jellyfish Light using White Umbrella </a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product 5.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,624</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Blooming Fairies Ornamental Vintage Bird Cage <br>Girls Mountain Bike</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product 6.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,789</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Fulkari Dulhan Chadar <br> using Mix Coloured Roses</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product 7.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,249</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Parasol Bridal Floral <br>White Umbrella for Wedding</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop product 8.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,656</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Ling's Moment Artificial Wedding <br> Arch Floral Arrangements</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 prod-item-col">
+								<div class="product-item">
+									<ul class="product-icon-top">
+										<li><a href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+									</ul>
+									<a href="single-shop.html" class="product-img"><img src="assets/img/shop products/shop products9.jpg" alt="product"></a>
+									<div class="product-item-wrap">
+										<div class="product-item-cover">
+											<div class="price-cover">
+												<div class="new-price">₹1,569</div>
+											</div>
+											<h6 class="prod-title"><a href="single-shop.html">Incrediable White Floral <br>Artificial Peacock</a></h6>
+											<a href="single-shop.html" class="btn"><span>buy now</span></a>
+										</div>
+										<div class="prod-info">
+											<ul class="prod-list">
+												<li>Frame Size: <span>17</span></li>
+												<li>Class: <span>City</span></li>
+												<li>Number of speeds: <span>7</span></li>
+												<li>Type: <span>Rigid</span></li>
+												<li>Country registration: <span>USA</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pagination-cover">
+							<ul class="pagination">
+								<li class="pagination-item item-prev"><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+								<li class="pagination-item active"><a href="#">1</a></li>
+								<li class="pagination-item"><a href="#">2</a></li>
+								<li class="pagination-item"><a href="#">3</a></li>
+								<li class="pagination-item"><a href="#">4</a></li>
+								<li class="pagination-item"><a href="#">5</a></li>
+								<li class="pagination-item item-next"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--=================== SHOP END ===================-->
+
+	<!--==================== FOOTER ====================-->
+	<footer>
+		<div class="container">
+			<div class="row footer-item-cover">
+				<div class="footer-subscribe col-md-7 col-lg-8">
+					<h6>subscribe</h6>
+					<p>Subscribe us and you won't miss the new arrivals.</p>
+					<form class="subscribe-form">
+						<i class="fa fa-at" aria-hidden="true"></i>
+						<input class="inp-form" type="email" name="subscribe" placeholder="E-mail">
+						<button type="submit" class="btn btn-form"><span>send</span></button>
+					</form>
+				</div>
+				<div class="footer-item col-md-5 col-lg-4">
+					<h6>info</h6>
+					<ul class="footer-list">
+						<li><a href="shop.html">Home</a></li>
+						<li><a href="shop.html">About Us</a></li>
+						<li><a href="shop.html">FAQ</a></li>
+						<li><a href="shop.html">Contacts</a></li>
+						<li><a href="shop.html">Privacy Policy</a></li>
+					    <li><a href="shop.html">Exchanges</a></li>
+						<li><a href="shop.html">Help</a></li>
+						<li><a href="shop.html">Customer Care</a></li>
+						<li><a href="shop.html">2023 Catalog</a></li>
+						<li><a href="shop.html">Returns</a></li>
+						<li><a href="shop.html">Search</a></li>
+						<li><a href="shop.html">Shipping & Delivery Policy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row footer-item-cover">
+				<div class="footer-touch col-md-7 col-lg-8">
+					<h6>stay in touch</h6>
+					<ul class="footer-soc social-list">
+						<li><a target="_blank" href="https://www.facebook.com/gokultentsupplier/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/gokul_events/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.indiamart.com/gokul-tent-supplier/"><i class="fa fa-indiamart" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.youtube.com/channel/UC36zMn6mlWRUymXumnUHsnA/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+					</ul>
+					<div class="footer-autor">Questions? Please write us at: <a href="mailto:gokultentsupplier0693@gmail.com">gokultentsupplier0693@gmail.com</a></div>
+				</div>
+				<div class="footer-item col-md-5 col-lg-4">
+					<h6>shop</h6>
+					<ul class="footer-list">
+						<li><a href="shop.html">Wedding Decor</a></li>
+						<li><a href="shop.html">Event Decoration</a></li>
+						<li><a href="shop.html">Birthday Decor</a></li>
+				        <li><a href="shop.html">Baby Shower Decor</a></li>
+						<li><a href="shop.html">Festivals Decor</a></li>
+						<li><a href="shop.html">Mehndi Decoration</a></li>
+						<li><a href="shop.html">Artficial Flowe₹ Service Decor</a></li>
+</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-copyright"><a target="_blank" href="https://gokultent0693@gmail.com">Gokul Events</a> © 2023. All Rights Reserved.</div>
+				<ul class="footer-pay">
+					<li><a href="#"><img src="assets/img/footer-pay-1.png" alt="img"></a></li>
+					<li><a href="#"><img src="assets/img/footer-pay-2.png" alt="img"></a></li>
+					<li><a href="#"><img src="assets/img/footer-pay-3.png" alt="img"></a></li>
+					<li><a href="#"><img src="assets/img/footer-pay-4.png" alt="img"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<!--===================== TO TOP =====================-->
+	<a class="to-top" href="#home">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a>
+	<!--=================== TO TOP END ===================-->
+	<!--=================== SCRIPT	===================-->
+	<script src="assets/js/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/jquery-ui.js"></script>
+	<script src="assets/js/jquery.nice-select.js"></script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+</html>
